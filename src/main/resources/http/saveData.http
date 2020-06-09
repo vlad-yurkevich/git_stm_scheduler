@@ -1,0 +1,73 @@
+POST localhost:8081/user
+Content-Type: application/json
+
+{
+  "name": "ULADZISLAU YURKEVICH",
+  "password": "1",
+  "email": "vladislav.yurkevich@softclub.by"
+}
+
+###
+
+POST localhost:8081/user
+Content-Type: application/json
+
+{
+  "name": "TEST user",
+  "password": "666",
+  "email": "stm_tmp@bk.ru"
+}
+
+###
+
+POST localhost:8081/user
+Content-Type: application/json
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "vladislav.yurkevich@softclub.by"
+}
+
+###
+
+POST localhost:8081/currency
+Content-Type: application/json
+
+{
+  "curName": "BYN",
+  "curRate": "1"
+}
+
+###
+
+POST localhost:8081/currency
+Content-Type: application/json
+
+{
+  "curName": "USD",
+  "curRate": "2.44"
+}
+
+###
+
+POST localhost:8081/currency
+Content-Type: application/json
+
+{
+  "curName": "RUB",
+  "curRate": "0.03"
+}
+
+###
+
+POST localhost:8081/order
+Content-Type: application/json
+
+{
+  "id_user": "1",
+  "id_currency": "1",
+  "orderSum": "100500"
+}
+
+###
